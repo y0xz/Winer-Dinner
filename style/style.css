@@ -1,0 +1,164 @@
+body {
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    margin:inherit;
+    padding: 0;
+    background-color: #f2e8cf;
+}
+h2 {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 50px;
+	color: #780000;
+	padding: -20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+	font-size: 20px;
+    background-color: #bc4749;
+	color: #f2e8cf;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+	padding-left: 20px;
+}
+
+
+nav ul {
+    list-style:none;
+    display: flex;
+    gap: 60px;
+	margin: 80px;
+	text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #780000;
+    font-weight: bold;
+    padding: 15px 75px;
+}
+
+nav ul li a:hover {
+    background-color: #780000;
+	color: #f2e8cf;
+    border-radius: 5px;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.highlight {
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.highlight img {
+    width: 80%;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.highlight:hover {
+    transform: translateX(15px);
+}
+.info {
+    padding: 0px 100px 0px 20px;
+}
+p {
+	font-size: 15px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.text-image {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    align-items: center;
+}
+
+.text-image .text {
+    padding: 20px 100px 20px 20px;
+    width: 60%;
+}
+
+.text-image .image {
+    width: 40%;
+    text-align: center;
+}
+
+.text-image .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.text-image strong {
+	color: #780000;
+}
+.text-image button {
+	padding: 10px 300px 10px 300px;
+    background-color: #bc4749;
+    color: white;
+    border: none;
+    border-radius: 5px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	  cursor: pointer;
+	
+}
+.text-image button:hover {
+    background-color: #780000;
+}
+
+.contact-form {
+    padding: 20px;
+    background-color: #780000;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #bc4749;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
